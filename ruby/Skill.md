@@ -55,6 +55,13 @@ Apply these rules when developing and maintaining Ruby projects.
   file to override the conflicting rules, but provide an alert about the
   discrepancies.
 
+- Alphabetize constants when possible. If a constant is dependent on another constant,
+  it obvously must appear out of order.
+
+- Alphabetize the keys of a hash whenever possible.
+
+- If a method has named paramaters, alphabetize the order of the named parameters. 
+
 ## Resources
 
 See the skills file for Rails Coding Preferences.
