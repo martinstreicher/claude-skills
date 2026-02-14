@@ -45,6 +45,10 @@ Apply these rules when developing and maintaining Ruby projects.
 
 - Alphabetize arrays in ransackable methods.
 
+- If an array of literals is defined with `%w` or `%i` and contains more than five elements,
+  put each element on its own line in the form `%w[` followed by a new line, indent 2, list an
+  item, new line, etc, and close with `].freeze`. 
+
 - Align scope arrows (`->`) vertically when there are many scopes.
 
 - Try to align the assignment operator (`=`) vertically when there are many
